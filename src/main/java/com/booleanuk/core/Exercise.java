@@ -14,9 +14,9 @@ public class Exercise {
     public String[] fizzbuzz(String[] nums) throws NumberFormatException {
         /* TODO: Implement a function that will look through a list of String representation of numbers and
             change the values of said array based on the rules below
-            Where a number is a multiple of three (3, 6, 9, etc) the array should contain the string "Fizz" instead of a number.
-            Where a number is a multiple of five (5, 10, etc) the array should contain the string "Buzz" instead of a number.
-            Where a number is a multiple of both five AND three (15, 30, etc) the array should contain the string "Fizzbuzz" instead of a number.
+            Where a number is a multiple of three (3, 6, 9, etc) the number in the array should be replaced the string "Fizz.
+            Where a number is a multiple of five (5, 10, etc) the number in the array should be replaced the string "Buzz".
+            Where a number is a multiple of both five AND three (15, 30, etc) the number in the array should be replaced the string "Fizzbuzz".
         * */
         return nums;
     }
