@@ -11,7 +11,7 @@ public class ExtensionTest {
     }
     @Test
     public void fizzbuzz() {
-        String[] shouldBeOne = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14"};
+        String[] shouldBeOne = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "Fizzbuzz"};
         Assertions.assertArrayEquals(shouldBeOne, this.extension.fizzbuzz(1, 15));
     }
 }
